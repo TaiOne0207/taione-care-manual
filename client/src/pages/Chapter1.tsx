@@ -100,7 +100,7 @@ export default function Chapter1() {
         </section>
 
         <div className="mt-12 flex justify-end">
-          <Link href="/chapter-2">
+          <Link href="/chapter-2" asChild>
             <Button size="lg" className="gap-2">
               下一章：認識主畫面 <ArrowRight className="w-4 h-4" />
             </Button>

@@ -120,7 +120,7 @@ export default function Chapter4() {
         </section>
 
         <div className="mt-12 flex justify-end">
-          <Link href="/chapter-5">
+          <Link href="/chapter-5" asChild>
             <Button size="lg" className="gap-2">
               下一章：進行全人照護評估 <ArrowRight className="w-4 h-4" />
             </Button>

@@ -80,7 +80,7 @@ export default function Chapter6() {
               如果在操作上有任何疑問，隨時可以再次翻閱這份手冊，或者向您的單位主管尋求協助。
             </TipBox>
             <div className="pt-4">
-              <Link href="/">
+              <Link href="/" asChild>
                 <Button variant="outline" size="lg">
                   回到首頁
                 </Button>

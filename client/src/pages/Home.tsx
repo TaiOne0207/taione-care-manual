@@ -31,7 +31,7 @@ export default function Home() {
               親愛的護理師夥伴，您好！<br/>
               這是一份專為您準備的操作手冊。我們將繁雜的科技化繁為簡，讓您能輕鬆上手，將更多寶貴的時間專注於照護本身。
             </p>
-            <Link href="/chapter-1">
+            <Link href="/chapter-1" asChild>
               <Button size="lg" className="text-lg px-8 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 開始閱讀手冊 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
@@ -85,12 +85,10 @@ export default function Home() {
               { id: 5, title: "進行全人照護評估", desc: "使用評估大廳、填寫評估表單" },
               { id: 6, title: "一鍵生成您的護理報告", desc: "快速產出專業報告" },
             ].map((chapter) => (
-              <Link key={chapter.id} href={`/chapter-${chapter.id}`}>
-                <a className="group block bg-card border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-md transition-all">
-                  <div className="text-sm font-bold text-primary mb-2">Chapter {chapter.id}</div>
-                  <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">{chapter.title}</h3>
-                  <p className="text-sm text-muted-foreground">{chapter.desc}</p>
-                </a>
+              <Link key={chapter.id} href={`/chapter-${chapter.id}`} className="group block bg-card border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-md transition-all">
+                <div className="text-sm font-bold text-primary mb-2">Chapter {chapter.id}</div>
+                <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">{chapter.title}</h3>
+                <p className="text-sm text-muted-foreground">{chapter.desc}</p>
               </Link>
             ))}
           </div>
