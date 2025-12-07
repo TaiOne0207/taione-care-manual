@@ -42,7 +42,7 @@ export default function Chapter5() {
               
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.48.36.png" 
+                  src="/screenshots/assessment-lobby.png" 
                   alt="全人照護評估大廳"
                   caption="這裡整合了所有專業的評估量表"
                 />
@@ -66,7 +66,7 @@ export default function Chapter5() {
             <div className="grid md:grid-cols-2 gap-8 items-start mb-8">
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.48.45.png" 
+                  src="/screenshots/assessment-basic.png" 
                   alt="基本資料評估表單"
                   caption="範例一：基本資料表單"
                 />
@@ -96,7 +96,7 @@ export default function Chapter5() {
 
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.49.00.png" 
+                  src="/screenshots/assessment-history.png" 
                   alt="疾病史評估表單"
                   caption="範例二：疾病史評估表單"
                 />

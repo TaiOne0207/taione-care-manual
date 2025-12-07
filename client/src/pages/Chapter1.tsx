@@ -43,7 +43,7 @@ export default function Chapter1() {
               
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.43.34.png" 
+                  src="/screenshots/app-icon.png" 
                   alt="手機桌面上的APP圖示"
                   caption="認明這個藍色愛心圖示喔！"
                 />
@@ -67,7 +67,7 @@ export default function Chapter1() {
             <div className="grid md:grid-cols-2 gap-8 items-start">
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.43.40.png" 
+                  src="/screenshots/login-screen.png" 
                   alt="登入畫面"
                   caption="這是登入畫面，請輸入您的帳號密碼"
                 />

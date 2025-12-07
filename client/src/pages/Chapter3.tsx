@@ -50,7 +50,7 @@ export default function Chapter3() {
               
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.44.40.png" 
+                  src="/screenshots/case-list.png" 
                   alt="個案總覽頁面"
                   caption="這裡列出了您所有的個案，也可以進行搜尋"
                 />
@@ -70,7 +70,7 @@ export default function Chapter3() {
             <div className="grid md:grid-cols-2 gap-8 items-start">
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.44.24.png" 
+                  src="/screenshots/new-case-form.png" 
                   alt="新收案基本資料表單"
                   caption="填寫新個案的基本資料"
                 />
@@ -128,7 +128,7 @@ export default function Chapter3() {
               
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.44.59.png" 
+                  src="/screenshots/case-detail-top.png" 
                   alt="個案詳細資訊頁面"
                   caption="個案詳細頁面整合了所有重要資訊"
                 />
@@ -138,7 +138,7 @@ export default function Chapter3() {
             <div className="grid md:grid-cols-2 gap-8 items-start">
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.45.08.png" 
+                  src="/screenshots/case-detail-bottom.png" 
                   alt="個案詳細資訊頁面（續）"
                   caption="往下滑動可以看到更多詳細數據"
                 />

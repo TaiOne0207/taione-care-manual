@@ -47,7 +47,7 @@ export default function Chapter6() {
               
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.44.59.png" 
+                  src="/screenshots/case-detail-top.png" 
                   alt="一鍵報告生成按鈕"
                   caption="點選上方的一鍵報告生成按鈕"
                 />

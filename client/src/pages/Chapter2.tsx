@@ -28,7 +28,7 @@ export default function Chapter2() {
             <div className="grid md:grid-cols-2 gap-8 items-start">
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.43.57.png" 
+                  src="/screenshots/home-overview.png" 
                   alt="主畫面總覽"
                   caption="這是您每天都會看到的主畫面"
                 />
@@ -92,7 +92,7 @@ export default function Chapter2() {
 
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.44.18.png" 
+                  src="/screenshots/home-features.png" 
                   alt="主畫面下方功能"
                   caption="往下滑動可以看到更多強大的功能"
                 />

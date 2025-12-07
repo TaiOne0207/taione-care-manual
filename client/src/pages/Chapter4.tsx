@@ -47,7 +47,7 @@ export default function Chapter4() {
               
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.45.14.png" 
+                  src="/screenshots/edit-tube.png" 
                   alt="編輯管路資訊"
                   caption="在這裡新增或修改管路資料"
                 />
@@ -57,7 +57,7 @@ export default function Chapter4() {
             <div className="grid md:grid-cols-2 gap-8 items-start">
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.45.33.png" 
+                  src="/screenshots/edit-meds.png" 
                   alt="編輯藥物資訊"
                   caption="在這裡管理個案的用藥紀錄"
                 />
@@ -110,7 +110,7 @@ export default function Chapter4() {
               
               <div>
                 <ScreenshotViewer 
-                  src="/screenshots/截圖2025-12-07上午9.45.55.png" 
+                  src="/screenshots/vital-signs.png" 
                   alt="記錄生命徵象"
                   caption="一次輸入所有生命徵象數值"
                 />
