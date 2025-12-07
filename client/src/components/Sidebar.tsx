@@ -31,18 +31,14 @@ export function Sidebar() {
         {menuItems.map((item) => {
           const isActive = location === item.href;
           return (
-            <Link key={item.href} href={item.href}>
-              <a
-                className={cn(
-                  "flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 text-base font-medium",
-                  isActive
-                    ? "bg-primary text-primary-foreground shadow-md"
-                    : "hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-muted-foreground"
-                )}
-              >
-                <item.icon className={cn("w-5 h-5", isActive ? "text-primary-foreground" : "text-primary")} />
-                {item.label}
-              </a>
+            <Link key={item.href} href={item.href} className={cn(
+              "flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 text-base font-medium",
+              isActive
+                ? "bg-primary text-primary-foreground shadow-md"
+                : "hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-muted-foreground"
+            )}>
+              <item.icon className={cn("w-5 h-5", isActive ? "text-primary-foreground" : "text-primary")} />
+              {item.label}
             </Link>
           );
         })}

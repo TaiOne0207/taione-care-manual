@@ -1,4 +1,5 @@
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { ZoomIn } from "lucide-react";
 
 interface ScreenshotViewerProps {
@@ -27,6 +28,9 @@ export function ScreenshotViewer({ src, alt, caption }: ScreenshotViewerProps) {
           </div>
         </DialogTrigger>
         <DialogContent className="max-w-4xl w-[90vw] p-0 overflow-hidden bg-transparent border-none shadow-none">
+          <VisuallyHidden>
+            <DialogTitle>{alt}</DialogTitle>
+          </VisuallyHidden>
           <img
             src={src}
             alt={alt}
