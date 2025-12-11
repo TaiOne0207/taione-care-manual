@@ -2,7 +2,7 @@ import { DashboardLayout } from "@/components/DashboardLayout";
 import { ScreenshotViewer } from "@/components/ScreenshotViewer";
 import { StepCard } from "@/components/StepCard";
 import { TipBox } from "@/components/TipBox";
-import { FlowChart } from "@/components/FlowChart";
+
 import { Camera, Wifi, Battery, Power, Settings, Video, Image as ImageIcon } from "lucide-react";
 
 export default function BodyCam() {
@@ -172,10 +172,6 @@ export default function BodyCam() {
         <section className="space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-400">
           <h3 className="text-xl font-semibold text-primary pl-14">開機與連線流程</h3>
           <div className="pl-14">
-            <div className="mb-8">
-              <FlowChart />
-              <p className="text-center text-sm text-muted-foreground mt-4">標準開機與連線程序流程圖</p>
-            </div>
             <div className="mt-6 space-y-4">
               <StepCard
                 stepNumber={1}
