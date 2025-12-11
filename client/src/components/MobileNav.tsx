@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-import { Activity, BookOpen, ClipboardList, FileCheck, FileText, Heart, Home, LayoutDashboard, Menu } from "lucide-react";
+import { Activity, BookOpen, ClipboardList, FileCheck, FileText, Heart, Home, LayoutDashboard, Menu, Camera } from "lucide-react";
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
 
@@ -13,6 +13,7 @@ const menuItems = [
   { icon: ClipboardList, label: "第四章：訪視記錄", href: "/chapter-4" },
   { icon: Activity, label: "第五章：照護評估", href: "/chapter-5" },
   { icon: FileCheck, label: "第六章：報告生成", href: "/chapter-6" },
+  { icon: Camera, label: "附錄：Body Cam", href: "/body-cam" },
 ];
 
 export function MobileNav() {

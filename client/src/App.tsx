@@ -5,7 +5,8 @@ import Chapter2 from "@/pages/Chapter2";
 import Chapter3 from "@/pages/Chapter3";
 import Chapter4 from "@/pages/Chapter4";
 import Chapter5 from "@/pages/Chapter5";
-import Chapter6 from "@/pages/Chapter6";
+import Chapter6 from "./pages/Chapter6";
+import BodyCam from "./pages/BodyCam";
 import Home from "@/pages/Home";
 import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
@@ -22,6 +23,8 @@ function Router() {
       <Route path="/chapter-4" component={Chapter4} />
       <Route path="/chapter-5" component={Chapter5} />
       <Route path="/chapter-6" component={Chapter6} />
+      <Route path="/body-cam" component={BodyCam} />
+      <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
   );

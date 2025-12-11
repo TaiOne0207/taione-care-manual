@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { BookOpen, Heart, Home, LayoutDashboard, FileText, Activity, ClipboardList, FileCheck } from "lucide-react";
+import { BookOpen, Heart, Home, LayoutDashboard, FileText, Activity, ClipboardList, FileCheck, Camera } from "lucide-react";
 import { Link, useLocation } from "wouter";
 
 const menuItems = [
@@ -10,6 +10,7 @@ const menuItems = [
   { icon: ClipboardList, label: "第四章：訪視記錄", href: "/chapter-4" },
   { icon: Activity, label: "第五章：照護評估", href: "/chapter-5" },
   { icon: FileCheck, label: "第六章：報告生成", href: "/chapter-6" },
+  { icon: Camera, label: "附錄：Body Cam", href: "/body-cam" },
 ];
 
 export function Sidebar() {
